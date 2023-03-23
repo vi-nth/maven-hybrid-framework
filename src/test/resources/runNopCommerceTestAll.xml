@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce - All">
+
+	<suites-files>
+		<suite-file path="runNopCommerceTestAdmin.xml" />
+		<suite-file path="runNopCommerceUser.xml" />
+	</suites-files>
+
+
+</suite>

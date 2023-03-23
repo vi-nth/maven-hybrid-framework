@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [NopCommerce - User]">
+  <parameter name="environment" value="DEV"/>
+  <parameter name="browser" value="Safari"/>
+  <parameter name="url" value="http://..."/>
+  <listeners>
+    <listener class-name="reportConfig.AllureTestListener"/>
+  </listeners>
+  <test thread-count="3" name="Run on chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_15_Allure">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="User_02_Login"/>
+          <include name="initBeforeSuite"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Level_15_Allure -->
+    </classes>
+  </test> <!-- Run on chrome(failed) -->
+</suite> <!-- Failed suite [NopCommerce - User] -->

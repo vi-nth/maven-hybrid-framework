@@ -1,0 +1,17 @@
+1658554835270	geckodriver	INFO	Listening on 127.0.0.1:46507
+1658554836805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IOTLink\\AppData\\Local\\Temp\\rust_mozprofileMLw6yI"
+1658554837589	Marionette	INFO	Marionette enabled
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:851:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:782:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:850:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2511:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2490:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2449:11
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\IOTLink\\AppData\\Local\\Temp\\rust_mozprofileMLw6yI\\search.json.mozlz4", (void 0)))
+1658554841831	Marionette	INFO	Listening on port 61543
+1658554842129	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
